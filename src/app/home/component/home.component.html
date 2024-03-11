@@ -1,0 +1,18 @@
+<app-header></app-header>
+<main>
+  <div *ngFor="let article of articlesList" class="article-card">
+    <mat-card>
+      <mat-card-content fxLayout="row" fxLayoutAlign="start center">
+        <div fxFlex="20">
+          <img mat-card-image src="{{ article.picture }}" alt="Article picture">
+        </div>
+        <div fxFlex="80">
+          <mat-card-title>{{ article.title }}</mat-card-title>
+          <mat-card-subtitle>{{ article.description }}</mat-card-subtitle>
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</main>
+
+

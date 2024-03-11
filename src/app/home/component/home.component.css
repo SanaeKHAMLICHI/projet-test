@@ -1,0 +1,28 @@
+.article-card {
+  display: flex;
+  margin: 20px;
+  justify-content: center;
+}
+main{
+  padding-bottom: 20px;
+}
+mat-card-content {
+  display: flex;
+  align-items: center;
+  width: 800px;
+}
+mat-card-content div{
+  margin-left: 10px;
+}
+
+img {
+  width: 150px;
+  height: 110px;
+}
+
+
+
+
+
+
+

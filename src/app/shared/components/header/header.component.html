@@ -1,0 +1,15 @@
+<header>
+  <app-menu></app-menu>
+  <div fxFlex="90">
+    <h1>Bienvenue dans l'univers de la Coupe du Monde 2022 !</h1>
+    <p>Plongez au cœur de l'action et découvrez les moments forts et les histoires inspirantes de cette édition historique.</p>
+  </div>
+  <div class="buttons">
+    <button class="btn-edit" mat-icon-button [routerLink]="['./profile']">
+      <mat-icon aria-label="Modifier">account_circle</mat-icon>x
+    </button>
+    <button class="btn-edit" mat-icon-button (click)="onLogout()">
+      <mat-icon aria-label="Modifier">logout</mat-icon>
+    </button>
+  </div>
+</header>
